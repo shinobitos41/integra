@@ -1,0 +1,99 @@
+@import "./reset.css";
+@import "./header.css";
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}
+
+.main-section {
+  margin-top: 5rem;
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  position: relative;
+}
+
+.title {
+  font-size: 23px;
+}
+
+/* .title-center {
+  top: -20px;
+  left: 46%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 16px;
+  color: blueviolet;
+} */
+
+.text-and-img {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-lecture > .description {
+  text-align: end;
+}
+
+mark {
+  background-color: #4ade80;
+  color: #ffffff;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 13px;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.btn > a {
+  color: white;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+    max-width: 95%;
+  }
+
+  .main-section {
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .julia-integra-img {
+    border-radius: 6rem;
+    width: 350px;
+  }
+
+  .showcase-text {
+    width: 100%;
+  }
+
+  .showcase-text :is(.title, .description) {
+    text-align: center;
+  }
+}

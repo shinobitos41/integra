@@ -1,0 +1,84 @@
+@import url("../../css/reset.css");
+@import url("../../css/header.css");
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 30px 0 20px 0;
+}
+
+.about-links {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 1.4rem;
+}
+
+.picture-teacher {
+  border-radius: 50rem;
+  width: 200px;
+  height: 200px;
+}
+
+.text-area {
+  text-align: center;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.title-name, .subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-area span {
+  color: #FF0099;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+}
+
+.description {
+  width: 900px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: minmax(auto, 750px);
+  grid-template-rows: repeat(4, 58px);
+  justify-content: center;
+  grid-gap: 1.1rem;
+}
+
+.item-link {
+  background-color: #FF0099;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.item-link:hover {
+  transform: scale(1.05);
+}
+
+.text-link {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: .64rem;
+}
+
+.text-link > img {
+  align-self: center;
+}

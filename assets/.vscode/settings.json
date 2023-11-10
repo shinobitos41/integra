@@ -1,0 +1,57 @@
+{
+  // Font Style
+  "editor.fontFamily": "Fira Code, Source Code Pro, JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "600",
+  "editor.fontSize": 18,
+
+  // Themes
+  "workbench.colorTheme": "Evondev Dracula High Contrast",
+
+  // Cursor
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+
+  // Prettier
+  "prettier.singleQuote": false,
+  "prettier.semi": true,
+  "prettier.arrowParens": "always",
+  "prettier.endOfLine": "lf",
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 80,
+
+  // Code Spell Checker
+  "cSpell.language": "en,pt",
+
+  // VSCode
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": true,
+  "editor.tabSize": 2,
+  "editor.formatOnType": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": false,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+}
