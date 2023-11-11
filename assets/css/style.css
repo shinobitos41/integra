@@ -50,8 +50,11 @@
   font-weight: 400;
 }
 
-.text-lecture > .description {
-  text-align: end;
+.text-lecture > div {
+display: flex;
+flex-direction: column;
+gap: 32px;
+
 }
 
 mark {
@@ -64,6 +67,7 @@ mark {
   border-radius: 13px;
   background-color: blueviolet;
   cursor: pointer;
+  align-self: flex-start;
 }
 
 .btn > a {

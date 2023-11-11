@@ -35,7 +35,7 @@ header {
 .hover-link:before {
   content: "";
   display: block;
-  background-color: #8a2be2;
+  background-color: #ffd109;
   position: absolute;
   width: 0;
   border-radius: 50px;
