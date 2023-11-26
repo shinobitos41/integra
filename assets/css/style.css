@@ -75,120 +75,50 @@ mark {
   font-size: 16px;
 }
 
-
 @media screen and (max-width: 1280px) {
   .container {
     margin: 0 auto;
-    max-width: 95%;
-  }
-
-  .main-section {
-    width: 100%;
-    height: auto;
-    flex-direction: column-reverse;
-    gap: 2rem;
-  }
-
-  .julia-integra-img {
-    border-radius: 6rem;
-    width: 350px;
-  }
-
-  .showcase-text {
-    width: 100%;
-  }
-
-  .showcase-text :is(.title, .description) {
-    text-align: center;
+    max-width: 960px;
   }
 }
-  
 
 @media screen and (max-width: 992px) {
-
   .container {
     margin: 0 auto;
-    max-width: 95%;
-  }
-
-  .main-section {
-    width: 100%;
-    height: auto;
-    flex-direction: column-reverse;
-    gap: 2rem;
-  }
-
-  .julia-integra-img {
-    border-radius: 6rem;
-    width: 350px;
-  }
-
-  .showcase-text {
-    width: 100%;
-  }
-
-  .showcase-text :is(.title, .description) {
-    text-align: center;
+    max-width: 768px;
   }
 }
 
-
-
-@media screen and (max-width: 769px ) {
-  
-
+@media screen and (max-width: 769px) {
   .container {
     margin: 0 auto;
-    max-width: 95%;
-  }
-
-  .main-section {
-    width: 100%;
-    height: auto;
-    flex-direction: column-reverse;
-    gap: 2rem;
-  }
-
-  .julia-integra-img {
-    border-radius: 6rem;
-    width: 350px;
-  }
-
-  .showcase-text {
-    width: 100%;
-  }
-
-  .showcase-text :is(.title, .description) {
-    text-align: center;
+    max-width: 576px;
   }
 }
-  
-
-
 
 @media screen and (max-width: 576px) {
   .container {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 95%;
   }
 
   .main-section {
+    margin-top: 5rem;
     width: 100%;
-    height: auto;
-    flex-direction: column-reverse;
-    gap: 2rem;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+    
   }
 
-  .julia-integra-img {
-    border-radius: 6rem;
-    width: 350px;
+  .text-and-img {
+    width: 95%;
+    grid-auto-flow: row;
   }
 
-  .showcase-text {
-    width: 100%;
-  }
 
-  .showcase-text :is(.title, .description) {
-    text-align: center;
-  }
 }
